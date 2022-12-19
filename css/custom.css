@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&family=Marcellus+SC&display=swap');
+/* :root{
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Marcellus SC', serif;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-top{
+    background-color: #f8f8f8;
+    padding-top: 8px;
+}
+.header-top .left-content-part ul li{
+    list-style-type: none;
+    color: #a5a9ab;
+    display: inline-block;
+    border-left:  1px solid #a5a9ab;
+    padding-left: 10px;
+}
+.header-top .left-content-part ul li a{
+    color: #a5a9ab;
+    text-decoration: none;
+}
+.header-top .left-content-part ul li img{
+    width: 20%;
+}
+.header-top .left-content-part ul li.third-photo img{
+    width: 13%;
+    border: 1px solid #a5a9ab;
+    padding: 6px;
+    border-radius: 24px;
+    margin-right: 7px;
+}
+.header-top .right-content-part ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    border-left: 1px solid #a5a9ab;
+    padding-left: 5px;
+}
+.header-top .right-content-part ul li img{
+    width: 35px;
+    border: 1px solid #a5a9ab;
+    padding: 4px;
+    border-radius: 20px;
+}
+/* Header Start */
+
+.custom-header{
+    background-color: #ffffff;
+    padding: 17px 102px;
+    vertical-align: middle;
+}
+.custom-header .navbar-content ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+.custom-header .navbar-content ul li a{
+    color: #3e3c3c;
+    font-size: 14px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+/* Header End */
+/* Banner Start */
+.custom-banner{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 165px;
+}
+.custom-banner .banner-heading h1{
+    margin-bottom: 26px;
+}
+.banner-heading h1{
+    font-family: 'Marcellus SC', serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 58px;
+    line-height: 45px;
+}
+.custom-banner .banner-para p.banner-first-para{
+    font-family: 'Exo 2', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.custom-banner .banner-para p.banner-second-para{
+    font-family: 'Exo 2', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.custom-banner .banner-para p.banner-third-para{
+    font-family: 'Exo 2', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 25px;
+    margin-bottom: 45px;
+}
+.custom-banner .banner-para p.banner-third-para span{
+    color: #eba325;
+    font-weight: 600;
+}
+.banner-btn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    background-color: #eba325;
+    padding: 14px 24px;
+}
+.custom-banner .banner-content-wrap{
+    background-color: #0d0e0b70;
+    width: 60%;
+    padding: 70px 60px;
+}
+
+/* Banner End */
+/* About Our Company Start*/
+.about-our-company{
+    background-color: #ffffff;
+    padding: 80px 0;
+}
+.about-our-company .about-our-company-left{
+    padding: 30px;
+}
+
+.about-our-company-heading h4{
+    font-family: 'Marcellus SC', serif;
+    font-weight: 400;
+    color: #13162b;
+    font-size: 40px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.about-our-company .about-our-company-heading h4 span{
+    color: #990000;
+}
+.about-our-company-para p{
+    font-family: 'Exo 2', sans-serif;
+    color: #585858;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 27px;
+}
+.about-our-company .about-our-company-right{
+    position: relative;
+    z-index: 1;
+}
+.about-our-company .about-our-company-right img{
+    width: 100%;
+    object-fit: cover;
+}
+.about-our-company .about-our-company-right .right-rectangle{
+    position: absolute;
+    z-index: -1;
+    top: -6%;
+    transform: translateX(110%);
+}
+
+/* About Our Company End*/
+
+/* First America Start */
+.first-america{
+    background-image: url('../images/First-america-banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 70px 0;
+}
+.first-america .first-america-card .card{
+    text-align: left;
+    width: 364px;
+}
+.first-america .first-america-card .card .card-body-bottom a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #ffffff;    
+}
+.first-america .first-america-card .card .card-title{
+    font-family: 'Marcellus SC', serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #13162b;
+}
+.first-america .first-america-card .card .card-text{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    color: #737373;
+}
+.first-america .first-america-card .card ul li{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    color: #3d3d3d;
+    font-size: 15px;
+    line-height: 25px;
+}
+.first-america .first-america-card .card .card-body-bottom{
+    background-color: #990000;
+    text-align: center;
+}
+.first-america .first-america-card .card .card-body-bottom a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #ffffff;    
+}
+.first-america .card-header ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.first-america .about-our-company-para p{
+    padding: 0 250px;
+}
+
+/* First America End */
+/* What Client Say Start */
+.client-say{
+    padding: 70px 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+.client-say .card{
+    position: relative;
+    text-align: left;
+    padding: 50px 36px;
+    margin: 100px 13px 0 20px;
+    border: 3px solid #e2e2e2;
+    box-shadow: 10px 3px 3px 3px #e2e2e2;
+}
+.client-say .card img{
+    position: absolute;
+    top: -15%;
+    left: 52px;
+    width: 17%;
+   object-fit: cover;
+}
+.client-say .card .card-title{
+    font-family: 'Marcellus SC', serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+.client-say .card .card-text{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    color: #3d3d3d;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+/* What Client Say End */
+
+/* Get In Touch Start */
+.get-in-touch {
+    position: relative;
+    background-image: url(../images/get-in-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 110px 0;
+}
+.get-in-touch .about-our-company-heading h4{
+    color: #ffffff;
+    margin-bottom: 90px;
+}
+.get-in-touch .banner-btn{
+    margin-top: 40px;
+}
+.get-in-touch .model-pic{
+    position: absolute;
+    bottom: 0;
+    right: 190px;
+}
+.get-in-touch .form-control{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 26px;
+    border: none;
+    border-radius: 0;
+}
+/* Get In Touch End */
+
+
+/* Footer Start */
+.custom-footer{
+    background-image: url('../images/footer-banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 57px 157px;
+}
+.custom-footer .header-logo{
+    margin-bottom: 37px;
+}
+.footer-para{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #3d3d3d;
+    line-height: 27px;
+    display: inline-block;
+}
+.custom-footer .footer-icon{
+    margin-top: 35px;
+    text-align: left;
+}
+.custom-footer .footer-icon li{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    color: #3d3d3d;
+    font-size: 14px;
+    line-height: 37px;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 3px;
+}
+.footer-heading h5{
+    font-family: 'Marcellus SC', serif;
+    font-weight: 400;
+    color: #131313;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 47px;
+    text-align: inherit;
+}
+.custom-footer .footer-heading-bottom-list ul {
+    padding-left: 0;
+  }
+.custom-footer .footer-heading-bottom-list ul li{
+    list-style-type: none;
+    text-align: left;
+}
+.custom-footer .footer-heading-bottom-list ul li a{
+    text-decoration: none;
+    color:#3d3d3d ;
+}
+.custom-footer .footer-heading-bottom-list ul li i{
+    color: #990000;
+    width: 8%;
+}
+.custom-footer .footer-icon li img{
+    width: 30px;
+}
+
+
+/* Footer End*/
+.footer-bottom{
+    text-align: center;
+    background-color: #990000;
+    margin-top: 3px 0;
+}
+.footer-bottom .footer-para{
+    font-weight: 400;
+    margin: 13px 0;
+    color: #ffffff;
+}
